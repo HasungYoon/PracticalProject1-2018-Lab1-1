@@ -38,7 +38,7 @@ public class Calculator {
 	 * This method is not an actual action of this object but just for starting our program.
 	 * 'public' means this method can be called via this object in anywhere.
 	 */
-	public static void main(String[] args) {
+	public static int main(String[] args) {
 
 		// Based on our class definition, we can create a real object!
 		// classname objectname = new classname();
