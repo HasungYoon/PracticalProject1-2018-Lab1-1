@@ -38,7 +38,7 @@ public class Calculator {
 	 * This method is not an actual action of this object but just for starting our program.
 	 * 'public' means this method can be called via this object in anywhere.
 	 */
-	public static int main(String[] args) {
+	public static void main(String[] args) {
 
 		// Based on our class definition, we can create a real object!
 		// classname objectname = new classname();
@@ -62,7 +62,7 @@ public class Calculator {
 		int secondIntArg = Integer.parseInt(secondArg);
 
 		countForAnyCompution=0;
-		localCount = 0;
+		Count = 0;
 
 		print("SUM:" , sum(firstIntArg, secondIntArg));
 		print("SUB:" , this.subtract(firstIntArg, secondIntArg));
