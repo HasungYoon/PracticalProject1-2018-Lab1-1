@@ -24,7 +24,6 @@ public class Calculator {
 	// Object data are any variables/constants in this area
 	// (in 'class' definition but not in method definitions.)
 	// We call all variables defined in this area as member variables or fields.
-
 	// static decides how this variable can be accessed and maintained.
 	// Static variables are shared by all objects crated by this class definition.
 	static int countForAnyCompution = 0;
